@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    background-color: black;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    height: 69px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+}
+
+#header #header-logo {
+    width: 50%;
+    margin-left: 15px;
+}
+
+#header h2 span {
+    color: red;
+}
+
+#header nav {
+    width: 50%;
+}
+
+#header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#header nav li {
+    margin: 0 25px;
+}
